@@ -1,0 +1,34 @@
+#cajita{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    color: white;
+    
+    }
+    
+    #input-form{
+        width: 300px;
+        margin-left: 300px;
+        height: 70px;
+    }
+    
+    
+    .btn-outline-secondary{
+        margin-right: 300px;
+        width: 200px;
+    }
+    
+    body{
+    
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/79fe83d4-7ef6-4181-9439-46db72599559/61fa856f-eabc-473a-aa9a-c743c3b4f598/AR-es-20221017-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    }
+
+    #imagen{
+        height: 50px;
+    }
+
+    
+#botoncito{
+    margin: 10px;
+}

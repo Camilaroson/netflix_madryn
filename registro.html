@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="registro.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+         <img id="logito" src="data:image/png;base64,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" alt="">
+            <span class="navbar-text">
+              <a href="#">Iniciar sesión</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="formulario">
+
+        <p>Paso 1 de 3</p>
+        <h1>Crear una contraseña para <br> que comiences tu membresia</h1>
+        <p>¡Unos pasos mas y listo!</p>
+        <p>Tampoco nos gustan los limites.</p>
+
+        <input type="email" placeholder="Ingresa tu email" >
+        <BR></BR>
+        <input type="password" placeholder="Ingresa tu contraseña">
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+         <a href="form-inicio.html"><button id="botoncito" class="btn btn-primary" type="button">INGRESAR</button></a>
+             </div>
+
+        
+      </div>
+
+
+    
+
+
+
+  
+    
+
+
+
+
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
+</body>
+</html>

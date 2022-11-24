@@ -1,0 +1,23 @@
+#logito{
+    height: 60px;
+}
+
+
+#formulario{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 550px;
+    height: 70px;
+}
+
+#botoncito{
+    background-color: red;
+    width: 450px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
